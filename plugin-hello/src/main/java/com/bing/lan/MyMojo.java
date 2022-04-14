@@ -24,6 +24,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
+ * 这里的注释很有作用，因为当时还没有注解
+ *
  * 类与方法使用了很多 tag。注意是 tag 而不是注解，注解是直接标记的，而 tag 是在文档注释里面的
  * https://zhuanlan.zhihu.com/p/121152777
  * <p>

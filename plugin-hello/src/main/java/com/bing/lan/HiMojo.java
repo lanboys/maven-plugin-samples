@@ -17,6 +17,6 @@ public class HiMojo extends AbstractMojo {
   private String name;
 
   public void execute() throws MojoExecutionException, MojoFailureException {
-    getLog().info("hi " + name);
+    getLog().info("******** hi " + name + " *********");
   }
 }

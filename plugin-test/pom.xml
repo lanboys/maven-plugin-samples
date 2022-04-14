@@ -28,6 +28,24 @@
                     <!-- 不填写则用name默认值 -->
                     <name>tom</name>
                 </configuration>
+                <executions>
+                    <execution>
+                        <!-- id 随便填, 唯一就可以 -->
+                        <id>11</id>
+                        <!-- 绑定到编译的生命周期 -->
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>hi</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>2</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>print</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
